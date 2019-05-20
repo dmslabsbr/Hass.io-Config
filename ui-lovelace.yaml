@@ -1,0 +1,15 @@
+title: My Awesome Home
+views:
+  - title: main
+    icon: mdi:home-outline
+    cards:
+    type: sensor
+    entity: sensor.living_room_temperature
+    name: Illumination
+  - title: Example
+    cards:
+        # The markdown card will render markdown text.
+      - type: markdown
+        title: Lovelace
+        content: >
+          Welcome to your **Lovelace UI**.
