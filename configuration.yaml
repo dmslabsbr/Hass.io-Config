@@ -75,4 +75,9 @@ asuswrt:
   username: !secret asus_user
   password: !secret asus_pass
   port: !secret asus_port
+  sensors:
+    - upload
+    - download
+    - upload_speed
+    - download_speed
   
